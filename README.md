@@ -3,6 +3,18 @@
 ## **Objective**
 Create a simple contributor management UI in React with the following features and requirements.
 
+## Summary for Testing Code:
+
+Our testing code is designed to assess a candidate's ability to write clean, efficient, and maintainable code. The focus is on simplicity and clarity, ensuring that the code is easy to understand and modify. Candidates will be evaluated on the following criteria:
+
+1. Code Readability: The code should be well-organized, with meaningful variable names and comments where necessary.
+2. Efficiency: The solution should be optimized for performance, avoiding unnecessary computations and using appropriate data structures.
+3. Simplicity: The code should solve the problem in a straightforward manner, without overcomplicating the logic.
+4. Error Handling: Proper handling of edge cases and potential errors to ensure robustness.
+5. Testing: Verify the correctness of the code
+
+This test aims to identify candidates who can produce high-quality code that is both functional and easy to maintain.
+
 ---
 
 ## **Requirements**
