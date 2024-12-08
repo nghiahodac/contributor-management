@@ -1,12 +1,23 @@
 export type ContributorRole =
-  "MainArtist" |
-  "FeaturedArtist" |
-  "Composer" |
-  "Lyricist" |
-  "MusicPublisher" |
-  "Producer" |
-  "Mixer" |
-  "Remixer"
+  | "MainArtist"
+  | "FeaturedArtist"
+  | "Composer"
+  | "Lyricist"
+  | "MusicPublisher"
+  | "Producer"
+  | "Mixer"
+  | "Remixer";
+
+export const contributorRoles: ContributorRole[] = [
+  "MainArtist",
+  "FeaturedArtist",
+  "Composer",
+  "Lyricist",
+  "MusicPublisher",
+  "Producer",
+  "Mixer",
+  "Remixer",
+];
 
 export type Contributor = {
   contributorId: number;
@@ -14,7 +25,7 @@ export type Contributor = {
   contributorAlias?: string | null;
   contributorAvatarUrl?: string | null;
   contributorRole: ContributorRole;
-}
+};
 
 export const mockContributors: Contributor[] = [
   {
